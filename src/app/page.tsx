@@ -4,10 +4,11 @@ import Navbar from "@/components/Navbar/Navbar";
 
 
 export default function Home() {
-  return (<>
-    <Navbar />
-    <Body />
-    <Footer/>
-  </>
+  return (
+    <>
+      <Navbar />
+      <Body />
+      <Footer/>
+    </>
   )
 }

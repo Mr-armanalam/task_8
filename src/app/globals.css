@@ -2,32 +2,67 @@
 @tailwind components;
 @tailwind utilities;
 
-/* brand section start */
-.brand_section{
-    padding: 0 2.5rem 0 2.5rem;
+
+@layer utilities {
+      /* Hide scrollbar for Chrome, Safari and Opera */
+      .no-scrollbar::-webkit-scrollbar {
+          display: none;
+      }
+     /* Hide scrollbar for IE, Edge and Firefox */
+      .no-scrollbar {
+          -ms-overflow-style: none;  /* IE and Edge */
+          scrollbar-width: none;  /* Firefox */
+    }
+  }
+
+  /* process section start  */
+
+.process_title{
+    padding: 5.5rem 22% 3rem 22%;
+    text-align: center;
 }
-.brand_ttl{
-    padding-bottom: 5rem;
+.process_title h1{
+    color: white;
+    font-family: sans-serif;
+    font-size: 3rem;
+    line-height: 4rem;
+}
+.process_step_container{
+    padding: 0 1rem 2rem 3rem;
+    padding-top: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.brand_ttl a{
-    color: rgb(118, 120, 137);;
-    font-weight: 600;
-    font-size: 1.25rem;
-}
-.brand_slider_container{
-    padding-bottom:  2.5rem;
-    display: flex;
-    justify-content: space-between;
     flex-direction: row;
-    overflow-x:auto;
-    scroll-behavior: smooth;
-    scrollbar-width: none;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
-.brand_element{
-    padding-right: 11.4%;
+.process_step{
+    width: 327px;
+    border: 1px solid white;
+    margin-right: 2rem;
+    border-radius: 0.55rem;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+.p_step_box{
+    padding: 3rem 0 2rem 0;
 }
 
-/* brand section end */
+.p_step{
+    padding-bottom: 0.3rem;
+    color: #BEF8FC;
+    border-bottom: 2px solid #BEF8FC;
+    font-size: 1.55rem;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.p_step_title{
+    display: block;
+    color: white;
+    font-size: 1.42rem;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.step_text{
+    color: rgb(149, 149, 149);
+}
+/* process section end*/
