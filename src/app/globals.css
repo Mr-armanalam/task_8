@@ -15,54 +15,58 @@
     }
   }
 
-  /* process section start  */
-
-.process_title{
-    padding: 5.5rem 22% 3rem 22%;
+/* discover section */
+.discover_section{
+    padding: 3rem 1rem 3rem 2rem;
+    background-color: #FAFAFA;
+    width: auto;
+    height: auto;
+}
+.discover_main_title{
+    padding: 4rem 20%;
     text-align: center;
 }
-.process_title h1{
-    color: white;
-    font-family: sans-serif;
-    font-size: 3rem;
-    line-height: 4rem;
+.discover_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 2rem 0;
 }
-.process_step_container{
-    padding: 0 1rem 2rem 3rem;
-    padding-top: 0;
+.discover_box{
+    width: 520px;
+    border: 1px solid rgb(233, 233, 233);
+    background-color: white;
+    border-radius: 0.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding: 3.1rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
 }
-.process_step{
-    width: 327px;
-    border: 1px solid white;
-    margin-right: 2rem;
-    border-radius: 0.55rem;
-    padding: 2rem;
-    margin-bottom: 1rem;
+.dcvr_icon{
+    width: 20%;
 }
-.p_step_box{
-    padding: 3rem 0 2rem 0;
+.dcvr_msg{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
 }
 
-.p_step{
-    padding-bottom: 0.3rem;
-    color: #BEF8FC;
-    border-bottom: 2px solid #BEF8FC;
+.dcvr_title{
+    padding-left:2.6rem;
+    color: #0A102F;
     font-size: 1.55rem;
-    font-weight: 600;
     font-family: sans-serif;
+    font-weight: 700;
 }
-.p_step_title{
-    display: block;
-    color: white;
-    font-size: 1.42rem;
+.dcvr_description{
+    padding:1rem 0 1.35rem 2.6rem;
+}
+.dcvr_navigation{
+    padding-left:2.6rem;
     font-family: sans-serif;
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 1.09rem;
 }
-.step_text{
-    color: rgb(149, 149, 149);
-}
-/* process section end*/
