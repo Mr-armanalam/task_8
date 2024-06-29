@@ -2,13 +2,13 @@ import React from "react";
 
 function Process_section() {
   return (
-    <div className="pb-16 bg-darkblue-950 mt-12">
+    <div className="pb-16 bg-darkblue-950 px-4 mt-12">
       <p className="text-white text-center text-5xl font-semibold mx-auto pt-24 pb-20 w-1/2">
         A simple process to use is a cold email drip campaign
       </p>
 
-      <div className="flex flex-row px-8 flex-wrap justify-evenly">
-        <div className="p-8 border rounded-lg w-96 mr-8 ">
+      <div className="flex flex-row flex-wrap justify-evenly">
+        <div className="p-8 border rounded-lg w-[407px]  mb-4">
           <img src="assets/image/icon-white-process-1.svg" alt="step1_icon" />
 
           <p className="mt-12 mb-10 text-teal-100 font-bold text-2xl underline decoration-2 underline-offset-8">
@@ -24,7 +24,7 @@ function Process_section() {
             by...
           </p>
         </div>
-        <div className="p-8 border rounded-lg w-96 ">
+        <div className="p-8 border rounded-lg w-[407px]  mb-4">
           <img src="assets/image/icon-white-process-2.svg" alt="step1_icon" />
 
           <p className="mt-12 mb-10 text-teal-100 font-bold text-2xl underline decoration-2 underline-offset-8">
@@ -40,7 +40,7 @@ function Process_section() {
             variations...
           </p>
         </div>
-        <div className="p-8 border rounded-lg w-96 ml-8 ">
+        <div className="p-8 border rounded-lg w-[407px] mb-4">
           <img src="assets/image/icon-white-process-3.svg" alt="step1_icon" />
 
           <p className="mt-12 mb-10 text-teal-100 font-bold text-2xl underline decoration-2 underline-offset-8">

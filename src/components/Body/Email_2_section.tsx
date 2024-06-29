@@ -5,27 +5,27 @@ function Email_2_section() {
     const check_icon_clor = { color: "#3147FF" };
   return (
     <div className="flex flex-col pt-20">
-      <div className="flex flex-row justify-evenly flex-wrap pb-20 px-10 mb-4">
+      <div className="flex flex-row justify-evenly flex-wrap pb-12 px-10 mb-4">
         <img
-          className="mt-4 w-1/2 pr-20"
+          className="mt-12 pr-4"
           src="assets/image/content-img-1.png"
           width="561"
           height="501"
           alt="cntnt_img1"
         />
-        <div className="mt-4 w-1/2 pl-4 pr-4 pt-8">
-          <p className="font-sans text-slate-900 pb-8 font-bold text-5xl">
+        <div className="mt-4 w-[600px] mx-4 pt-8">
+          <p className="font-sans w-[100%] text-slate-900 pb-8 font-bold text-5xl">
             Masco cold email outreach that drives meetings with your dream
             clients
           </p>
 
-          <p className="font-sans text-slate-700 text-xl border-b-2 pb-10 font-normal">
+          <p className="font-sans w-90% text-slate-700 text-xl border-b-2 pb-10 font-normal">
             Turn Masco's cold email outreach into a lead-converting sales
             machine. Our simple-to-use features combined with our done-for-you
             services will enable you to generate and close deals faster.
           </p>
-          <div className="flex flex-row pt-8">
-            <span className="leading-12 pr-16">
+          <div className="flex flex-row flex-wrap pt-8">
+            <span className="leading-12 mb-4 pr-16">
               <h1 className="font-sans text-7xl text-blue-700 font-bold">
                 80%
               </h1>
@@ -33,7 +33,7 @@ function Email_2_section() {
                 Increase in Monthly Meetings
               </p>
             </span>
-            <span className="leading-12">
+            <span className="leading-12 mb-4">
               <h1 className="font-sans text-7xl text-blue-700 font-bold">
                 $50M
               </h1>
@@ -45,9 +45,9 @@ function Email_2_section() {
         </div>
       </div>
 
-      <div className="flex flex-row justify-evenly flex-wrap pr-16 pb-12 mb-4">
-        <div className="mt-4 w-1/2 pl-10">
-          <h2 className="font-sans text-slate-900 pb-8 font-bold text-5xl">
+      <div className="flex flex-row justify-evenly flex-wrap mr-8 pb-12 mb-4">
+        <div className="mt-4 mx-4 w-[600px]">
+          <h2 className="font-sans w-[100%] justify-start text-slate-900 pb-8 font-bold text-5xl">
             Achieve more productivity and revenue for every rep
           </h2>
           <p className="font-sans text-slate-700 text-xl pb-10 font-normal">
@@ -81,7 +81,7 @@ function Email_2_section() {
         </div>
 
         <img
-          className="w-1/2 pl-28 py-8"
+          className=" pl-2 py-8"
           src="assets/image/content-img-2.png"
           width="561"
           height="501"
