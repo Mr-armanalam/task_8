@@ -12,47 +12,47 @@ function Brand_section() {
           className="w-32 mr-32 h-10 mr-32"
           src="assets/image/brand-1.png"
           alt="airbnb"
-        ></img>
+        />
         <img
           className="w-32 mr-32 h-10 mr-32"
           src="assets/image/brand-2.png"
           alt="airbnb"
-        ></img>
+        />
         <img
           className="w-32 mr-32 h-10 mr-32"
           src="assets/image/brand-3.png"
           alt="airbnb"
-        ></img>
+        />
         <img
           className="w-32 mr-32 h-10 mr-32"
           src="assets/image/brand-4.png"
           alt="airbnb"
-        ></img>
+        />
         <img
           className="w-32 mr-32 h-10 mr-32"
           src="assets/image/brand-5.png"
           alt="airbnb"
-        ></img>
+        />
         <img
           className="w-32 mr-32 h-8 mr-32"
           src="assets/image/brand-6.png"
           alt="airbnb"
-        ></img>
+        />
         <img
           className="w-32 mr-32 h-10 mr-32"
           src="assets/image/brand-1.png"
           alt="airbnb"
-        ></img>
+        />
         <img
           className="w-32 mr-32 h-10 mr-32"
           src="assets/image/brand-2.png"
           alt="airbnb"
-        ></img>
+        />
         <img
           className="w-32 mr-32 h-10 mr-8"
           src="assets/image/brand-3.png"
           alt="airbnb"
-        ></img>
+        />
       </div>
     </div>
   );
