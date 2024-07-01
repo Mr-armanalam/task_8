@@ -5,6 +5,8 @@ import Process_section from './Process_section'
 import Email_2_section from './Email_2_section'
 import Discover_section from './Discover_section'
 import Channel_section, {Channel} from './Channel_section'
+import Review_section from './Review_section'
+import Information_section from './Information_section'
 
 import Marquee from 'react-fast-marquee'
 
@@ -17,12 +19,16 @@ function main() {
       <Email_2_section />
       <Discover_section />
       <Channel_section />
-      <Marquee direction='right'>
-        <Channel/>
-      </Marquee>
-      <Marquee>
-        <Channel />
-      </Marquee>
+      <div className='pb-20'>
+        <Marquee direction="right">
+          <Channel />
+        </Marquee>
+        <Marquee>
+          <Channel />
+        </Marquee>
+      </div>
+      <Review_section/>
+      <Information_section/>
     </div>
   );
 }
