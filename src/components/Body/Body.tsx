@@ -9,6 +9,7 @@ import Review_section from './Review_section'
 import Information_section from './Information_section'
 
 import Marquee from 'react-fast-marquee'
+import Contact_section from './Contact_section'
 
 function main() {
   return (
@@ -29,6 +30,7 @@ function main() {
       </div>
       <Review_section/>
       <Information_section/>
+      <Contact_section/>
     </div>
   );
 }
